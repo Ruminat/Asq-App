@@ -17,3 +17,7 @@ npm run dev
 npm run build
 
 ```
+
+The repository for the server can be found [here](https://github.com/Ruminat/Asq-Server).
+
+The pdf document can be found [here](https://elib.spbstu.ru/dl/3/2020/vr/vr20-2586.pdf/info).

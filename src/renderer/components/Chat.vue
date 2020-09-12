@@ -8,15 +8,6 @@
             br
             .message-content
               .message-plain-text(v-if="m.content.plainText") {{ m.content.plainText }}
-      //- .message.user-message
-      //-   .message-date 20.03.2020 20:20
-      //-   //- <br>
-      //-   .message-content
-      //-     .message-plain-text Доход за текущий месяц
-      //- .message.server-message
-      //-   .message-date 20.03.2020 20:20
-      //-   .message-content
-      //-     .message-plain-text 2 938 223.82 р.
 
     .input-block
       .input-group
@@ -42,16 +33,14 @@
     return result
   }
 
-  ;(async function () {
-    console.log('before')
-    const result = await POST('http://localhost:8000/test', {
-      ID: 1729,
-      message: 'СОСИ ХУЙ, ГРЯЗНЫЙ ПИДОРАС!',
-      bitches: ['Joe mama', 'bebe']
-    })
-    console.log(result)
-    console.log('after')
-  }())
+  // ;(async function () {
+  //   console.log('before')
+  //   const result = await POST('http://localhost:8000/asq', {
+  //     query: 'Начальник, округлённая средняя зарплата по начальникам, где минимальная зарплата > 6000 и есть начальник, сортировка по средней зарплате по убыванию'
+  //   })
+  //   console.log(result)
+  //   console.log('after')
+  // }())
 
   // moment.locale('ru')
 
